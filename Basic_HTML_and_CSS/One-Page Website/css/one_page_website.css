@@ -1,0 +1,19 @@
+/* MAKE THE WHOLE PAGE ROBOTO FONT */
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* MAKE EVERYTHING IN THE <p> ELEMENT THIS SIZE FONT */
+
+p {
+    font-size: 18px;
+}
+
+/* BORDER AROUND THE NEWSLETTER FORM */
+form {
+    width: 20%;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+}
