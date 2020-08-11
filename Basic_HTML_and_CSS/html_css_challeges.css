@@ -1,0 +1,162 @@
+/* NAVBAR STYLES */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: slateblue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: rgb(160, 145, 255);
+    color: black;
+}
+
+/* NAV BAR STYLES END */
+
+/* CENTER IMAGE AND ADUST REALTIVE SIZE */
+
+.center {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+/* APPLY IMAGE FILTER(on hover) */
+
+img:hover {
+    filter: invert(100%);
+}
+
+
+/* ROUND THE EDGES */
+
+img {
+    border: 2px solid black;
+    border-radius: 15px ;
+}
+
+/* IMAGE TEXT OVERLAY disabled to add the same thing in the other overlay */
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease-in-out;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.centered {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* FADE IN OVERLAY */
+
+/* COLUMNS */
+
+.column {
+    float: left;
+    width: 40%;
+    padding: 12px;
+    height: 250px;
+    background-color: grey;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* FOOTER STYLES */
+
+footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* TABLE STYLES */
+
+table, tr, th, td {
+    text-align: center;
+    border: 2px solid slateblue;
+    border-radius: 3px;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px;
+    width: 30%;
+}
+
+th {
+    background-color: slateblue;
+    color: white;    
+}
+
+table {
+    margin: 0 auto;
+    width: 40%;
+}
+
+/* <p> HOVER EFFECT */
+
+p:hover {
+    font-weight: bolder;
+}
+
+source {
+    position: relative;
+}
+
+.top-left {
+    color: white;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
